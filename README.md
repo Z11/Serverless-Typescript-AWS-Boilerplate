@@ -1,6 +1,6 @@
 # Serverless Typescript AWS
 
-This is a Boiler Plate project using Typescript, Eslint, Prettier, and VScode debugger that is ready for developing [AWS Lambdas](https://aws.amazon.com/lambda)
+This is a Serverless Framework Boiler Plate project using Typescript, Eslint, Prettier, and VScode debugger that is ready for developing [AWS Lambdas](https://aws.amazon.com/lambda)
 
 ## Stack
 

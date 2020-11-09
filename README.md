@@ -12,9 +12,9 @@ This is a Serverless Framework Boiler Plate project using Typescript, Eslint, Pr
 
 # Getting Started
 
-### 1. Crendentials setup
+### 1. Credentials setup
 
-You need to have an AWS account that has developer access to use lambda. (if you are the admin of the AWS account then you can use those credentials but its not recommeded)
+You need to have an AWS account that has developer access to use lambda. (if you are the admin of the AWS account then you can use those credentials but its not recommended)
 
 You also need to setup your AWS credentials in your local AWS credentials file in order to communicate with AWS services and deploy your lambda to AWS.
 
@@ -65,10 +65,10 @@ yarn
 - Option 1:
 
   ```bash
-  sls invole local -f handler
+  sls invoke local -f handler
 
-  ##or (if you have a specific aws account you want to use, for example you job aws account)
-  sls invole local -f handler --aws-profile CompanyAWSProfile
+  ##or (if you have a specific aws account you want to use, for example your job aws account)
+  sls invoke local -f handler --aws-profile CompanyAWSProfile
   ```
 
 - Option 2: (best option since you can use breakpoints and have hot reloads)
@@ -82,11 +82,11 @@ yarn
 ```bash
 sls deploy
 
-##or (if you have a specific aws account you want to use, for example you job aws account)
+##or (if you have a specific aws account you want to use, for example your job aws account)
 sls deploy --aws-profile CompanyAWSProfile
 ```
 
-### 7. (Only needed if you want to remove your lambda. This is the recommeded since the stack and S3 need to cleaned)
+### 7. (Only needed if you want to remove your lambda from AWS)
 
 ```bash
 sls remove -v

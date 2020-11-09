@@ -41,6 +41,6 @@
     "webpack": "^4.29.0",
     "webpack-node-externals": "^1.7.2"
   },
-  "author": "Roberto Chupin building on code from serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "author": "Roberto Chupin",
   "license": "MIT"
 }

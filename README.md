@@ -1,12 +1,18 @@
-# Serverless Typescript AWS
+# Serverless Typescript Boilerplate AWS
 
 This is a Serverless Framework Boiler Plate project using Typescript, Eslint, Prettier, and configured to use VScode debugger that is ready for developing [AWS Lambdas](https://aws.amazon.com/lambda)
 
+Special thanks for [Frederick Barthelet](https://github.com/fredericbarthelet) , [Medikoo](https://github.com/medikoo), and Serverless Team/Community for creating the TypeScript Template used to develop this boilerplate: [Serverless TypeScript Template](https://github.com/serverless/serverless/tree/master/lib/plugins/create/templates/aws-nodejs-typescript)
+
 ## Stack
 
-- [Node.js](https://nodejs.org/en/) 12x
+- [Node.js](https://nodejs.org/en/)
 - [Serverless](https://serverless.com/framework/docs/)
-- [Typescript](https://www.typescriptlang.org/) (> 3.8) for type checking.
+- [Typescript](https://www.typescriptlang.org/)
+- [Webpack](https://github.com/webpack/webpack)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [VSCode Debugger](https://code.visualstudio.com/docs/editor/debugging)
 
 ---
 
